@@ -25145,7 +25145,6 @@ id,host_id,neighbourhood_group,neighbourhood,room_type,price,last_review
 20147628,4391397,Brooklyn,Windsor Terrace,Entire home/apt,150,28/04/2019
 20147886,119680716,Brooklyn,Kensington,Private room,35,26/08/2017
 20148004,143330206,Brooklyn,Bedford-Stuyvesant,Private room,45,14/09/2017
-20148331,7927832,Staten Island,"Bay Terrace,-74.14439,Entire home/apt,150,0
 20148616,131647128,Manhattan,Upper West Side,Entire home/apt,190,16/05/2019
 20149300,74541079,Brooklyn,Crown Heights,Entire home/apt,199,29/04/2019
 20149318,19297877,Bronx,Bronxdale,Private room,35,11/12/2018
@@ -42861,7 +42860,6 @@ id,host_id,neighbourhood_group,neighbourhood,room_type,price,last_review
 33273525,24204269,Brooklyn,Prospect Heights,Private room,70,09/05/2019
 33274640,555245,Manhattan,East Village,Entire home/apt,165,22/06/2019
 33274701,227195925,Queens,Howard Beach,Entire home/apt,165,
-33275070,250580779,Staten Island,"Bay Terrace,-74.1366,Entire home/apt,55,0
 33275250,239660813,Manhattan,Hell's Kitchen,Private room,209,
 33275808,233881237,Brooklyn,Fort Greene,Entire home/apt,125,23/06/2019
 33279205,239660813,Manhattan,Hell's Kitchen,Private room,794,
