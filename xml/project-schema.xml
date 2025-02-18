@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="projects">
+   <xs:complexType>
+    <xs:sequence>
+     <xs:element name="project" maxOccurs="unbounded">
+     <xs:complexType>
+            <xs:all>
+                <xs:element name="supervisor" type="xs:string"/>
+                <xs:element name="title" type="xs:string"/>
+                <xs:element name="keywords">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="keyword" type="xs:string" minOccurs="0" maxOccurs="unbounded" />
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:all>
+            <xs:attribute type="xs:string" name="key"/>
+    </xs:complexType>
+    </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+</xs:element>
+
+</xs:schema>
+

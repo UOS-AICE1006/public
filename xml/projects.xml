@@ -1,0 +1,37 @@
+<projects>
+<project key="sab1m08">
+<title>3D image analysis using stereopairs from helium ion and electron microscopes.</title>
+<supervisor>
+<name>Boden, Stuart</name>
+<email>sab1m08@soton.ac.uk</email>
+</supervisor>
+<keywords>
+<keyword>Nanotechnology</keyword>
+<keyword>Nanofabrication</keyword>   
+</keywords>
+</project>
+<project key="jy12g15">
+<title>A smart AI for video-sharing websites (Car industry)</title>
+<supervisor>
+<name>Yan, Jize</name>
+<email>jy12g15@soton.ac.uk</email>
+</supervisor>
+<keywords>
+<keyword>Collaborative Systems</keyword>
+<keyword>Distributed Systems</keyword>   
+<keyword>Data Science</keyword>
+</keywords>
+</project>
+<project key="dst1m17">
+<supervisor>
+<name>Tarapore, Danesh</name>
+<email>dst1m17@soton.ac.uk</email>
+</supervisor>
+<title>Adaptation capabilities of evolved robots -- exploring the limits</title>
+<keywords>
+<keyword>Swarm behaviours</keyword>
+<keyword>Swarm Robotics</keyword>
+<keyword>Swarm Intelligence</keyword>
+</keywords>
+</project>
+</projects>

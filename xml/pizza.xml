@@ -1,0 +1,20 @@
+<menu>
+<Pizza name="plain">
+<Cheese>Mozarella</Cheese>
+<Base>Don't know</Base>
+<Toppings>
+<Topping>Onions</Topping>
+<Topping>Olives</Topping>
+<Topping>Peperroni</Topping>
+</Toppings>
+</Pizza>
+<Pizza name="margarita">
+<Cheese>Mozarella</Cheese>
+<Base>Don't know</Base>
+<Toppings>
+<Topping>Onions</Topping>
+<Topping>Olives</Topping>
+<Topping>Peperroni</Topping>
+</Toppings>
+</Pizza>
+</menu>
