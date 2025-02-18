@@ -2,7 +2,7 @@
 
     <xs:element name="Pizza">
         <xs:complexType>
-            <xs:sequence>
+            <xs:all>
             <xs:element name="Base" type="xs:string"/>
             <xs:element name="Cheese" type="xs:string"/>
             <xs:element name="Toppings">
@@ -12,7 +12,7 @@
                     </xs:sequence>
                 </xs:complexType>
             </xs:element>
-           </xs:sequence>
+           </xs:all>
         <xs:attribute name="name"/>
         </xs:complexType>
     </xs:element>

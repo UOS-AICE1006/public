@@ -1,6 +1,6 @@
 <Pizza name="Ham and Sweetcorn">
-    <Base>Grand Pan</Base>
     <Cheese>Extra</Cheese>
+    <Base>Grand Pan</Base>
     <Toppings>
         <Topping>Ham</Topping>
         <Topping>Sweetcorn</Topping>
