@@ -1,3 +1,5 @@
+xmllint --xpath '//project[1]/keywords/keyword/text()' projects.xml
+xmllint --xpath '//project[2]/keywords/keyword[1]/text()' projects.xml
 xmllint --xpath '//project[supervisor/name[contains(text(),"Stuart")]]/keywords/keyword/text()' projects.xml
 xmllint --xpath '//keyword[text()="Nanotechnology"]/text()' projects.xml
 xmllint --xpath '//project[keywords/keyword[text()="Nanotechnology"]]' projects.xml
