@@ -1,9 +1,20 @@
-<Pizza name="Ham and Sweetcorn">
-    <Cheese>Extra</Cheese>
-    <Base>Grand Pan</Base>
-    <Toppings>
-        <Topping>Ham</Topping>
-        <Topping>Sweetcorn</Topping>
-    </Toppings>
+<menu>
+<Pizza name="plain">
+<Base>Don't know</Base>
+<Cheese>Mozarella</Cheese>
+<Toppings>
+<Topping>Onions</Topping>
+<Topping>Olives</Topping>
+<Topping>Peperroni</Topping>
+</Toppings>
 </Pizza>
-
+<Pizza name="margarita">
+<Base>Don't know</Base>
+<Cheese>Mozarella</Cheese>
+<Toppings>
+<Topping>Onions</Topping>
+<Topping>Olives</Topping>
+<Topping>Peperroni</Topping>
+</Toppings>
+</Pizza>
+</menu>

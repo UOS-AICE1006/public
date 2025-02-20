@@ -1,21 +1,25 @@
+<?xml version="1.0"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
-
-    <xs:element name="Pizza">
-        <xs:complexType>
-            <xs:all>
-            <xs:element name="Base" type="xs:string"/>
-            <xs:element name="Cheese" type="xs:string"/>
-            <xs:element name="Toppings">
-                <xs:complexType>
-                    <xs:sequence>
-                        <xs:element name="Topping" type="xs:string" maxOccurs="unbounded"/>
-                    </xs:sequence>
-                </xs:complexType>
-            </xs:element>
-           </xs:all>
-        <xs:attribute name="name"/>
-        </xs:complexType>
-    </xs:element>
-
+<xs:element name="menu">
+   <xs:complexType>
+    <xs:sequence>
+     <xs:element name="Pizza" type="PizzaType" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:element>
+<xs:complexType name="PizzaType">
+            <xs:sequence>
+                <xs:element name="Base" type="xs:string"/>
+                <xs:element name="Cheese" type="xs:string"/>
+                <xs:element name="Toppings">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="Topping" type="xs:string" minOccurs="0" maxOccurs="unbounded" />
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+            <xs:attribute type="xs:string" name="name"/>
+    </xs:complexType>
 </xs:schema>
 
